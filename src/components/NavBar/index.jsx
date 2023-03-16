@@ -4,7 +4,9 @@ export const Navbar = () => {
   return (
     <nav className="navbarDisplay">
       {/* LOGO */}
-      <div>🍀</div>
+          <div>
+              <img src={imagenes[2]}/>
+          </div>
       <ul className="ulDisplay">
         <li className="liDisplay">Helados de Vaso</li>
         <li className="liDisplay">Helados en conos</li>

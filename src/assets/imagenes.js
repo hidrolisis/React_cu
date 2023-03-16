@@ -8,5 +8,5 @@ export default [
     copa-de-helado, /*[o]*/
     cono-de-helado, /*[1]*/
     ice-cream, /*[2]*/
-    shopping-car, /*[3]*/
+    shopping-car /*[3]*/
 ]

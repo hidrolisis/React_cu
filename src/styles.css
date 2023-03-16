@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.navbarDisplay {
+    width: 100%;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ulDisplay {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.liDisplay {
+    list-style: none;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.iconCartDisplay {
+    widows: 20px;
+    height: 20px;
+}
+
+.itemListContainerDisplay {
+    width: 100%;
+    min-height: 100vh;
+    background-color: cyan;
+    color: black;
+    font-size: 50px;
+}
