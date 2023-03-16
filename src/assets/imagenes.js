@@ -1,7 +1,7 @@
-import copa-de-helado from ".img/copa-de-helado.png";
-import cono-de-helado from ".img/cono-de-helado.png";
-import ice-cream from ".img/ice-cream-logo.jpg";
-import shoping-car from ".img/shopping_car3.png";
+import copa-de-helado from .img/copa-de-helado.png;
+import cono-de-helado from .img/cono-de-helado.png;
+import ice-cream from .img/ice-cream-logo.jpg;
+import shoping-car from .img/shopping_car3.png;
 
 
 export default [
