@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     name: "Helado en Cono",
-    category: "Cono",
+    category: "Conos",
     typeimage: "../assets/images/lupulo-white.png",
     ibu: "10.7 IBU",
     abv: "9.1% ABV",
@@ -43,14 +43,14 @@ export default [
     ibu: "7.5 IBU",
     abv: "8.3% ABV",
     description:
-      "Exquisita seleccio de chocolate amargo al 80% en cacao con chocolate tradicional",
+      "Exquisita selección de chocolate amargo al 80% en cacao con chocolate tradicional",
     precio: 690,
     image: "../assets/images/4.jpg",
   },
   {
     id: 5,
     name: "Fantasia",
-    category: "Cono",
+    category: "Conos",
     typeimage: "../assets/images/lupulo-white.png",
     ibu: "8.2 IBU",
     abv: "9.3% ABV",
@@ -62,7 +62,7 @@ export default [
   {
     id: 6,
     name: "Amor vertical",
-    category: "Paleta",
+    category: "Paletas",
     typeimage: "../assets/images/lupulo-white.png",
     ibu: "9.5 IBU",
     abv: "12.3% ABV",

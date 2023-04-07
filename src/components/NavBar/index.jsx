@@ -60,7 +60,7 @@ export default function NavBar() {
               aria-expanded={openMenu ? "true" : undefined}
               onClick={handleClick}
             >
-              NUESTRAS CERVEZAS
+              NUESTROS HELADOS
             </Button>
             <Menu
               id="basic-menu"
@@ -73,26 +73,26 @@ export default function NavBar() {
             >
               <MenuItem onClick={handleClose}>
                 <NavLink
-                  to={"/category/rubia"}
+                  to={"/category/Conos"}
                   style={{ textDecoration: "none", color: "black" }}
                 >
-                  CERVEZAS RUBIAS
+                  CONOS
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
                 <NavLink
-                  to={"/category/roja"}
+                  to={"/category/Vasos"}
                   style={{ textDecoration: "none", color: "black" }}
                 >
-                  CERVEZAS ROJAS
+                  VASOS
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
                 <NavLink
-                  to={"/category/negra"}
+                  to={"/category/Paletas"}
                   style={{ textDecoration: "none", color: "black" }}
                 >
-                  CERVEZAS NEGRAS
+                  PALETAS
                 </NavLink>
               </MenuItem>
               <MenuItem onClick={handleClose}>
