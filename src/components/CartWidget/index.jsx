@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
@@ -24,3 +25,13 @@ export default function CartWidget() {
     </Box>
   );
 }
+=======
+export const CartWidget = () => {
+  return (
+    <>
+      🛒
+      <div>5</div>
+    </>
+  );
+};
+>>>>>>> 581330815b6ad0306f6bd40700fa542065e9289a

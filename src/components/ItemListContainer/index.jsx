@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import products from "../../mocks/products";
 import ItemList from "../ItemList/index";
 import { useEffect, useState } from "react";
@@ -30,3 +31,8 @@ export default function ItemListContainer({ categoryId, isCategoryRoute }) {
     </Container>
   );
 }
+=======
+export const ItemListContainer = (props) => {
+  return <div className="itemListContainerDisplay">{props.text}</div>;
+};
+>>>>>>> 581330815b6ad0306f6bd40700fa542065e9289a
